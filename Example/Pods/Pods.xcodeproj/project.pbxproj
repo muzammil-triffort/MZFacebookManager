@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30E47FEAF5C22ECAB819F9F3136F16DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		68887FBF1E928480009EAAEE /* MZFacebookLoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68887FBD1E928480009EAAEE /* MZFacebookLoginManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68887FBF1E928480009EAAEE /* MZFacebookLoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68887FBD1E928480009EAAEE /* MZFacebookLoginManager.h */; };
 		68887FC01E928480009EAAEE /* MZFacebookLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68887FBE1E928480009EAAEE /* MZFacebookLoginManager.m */; };
 		86A1D6DD7C7A121FEC162D3AC55E6829 /* Pods-MZFacebookManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F703DDED3AACE9D721112A25D1DF4846 /* Pods-MZFacebookManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A26776FE379D5E22271BE4426F6CFFF7 /* MZFacebookManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5FBCF8B19E46D218349C321161ABFB /* MZFacebookManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
