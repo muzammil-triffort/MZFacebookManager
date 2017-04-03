@@ -1,6 +1,0 @@
-framework module Pods_MZFacebookManager_Tests {
-  umbrella header "Pods-MZFacebookManager_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

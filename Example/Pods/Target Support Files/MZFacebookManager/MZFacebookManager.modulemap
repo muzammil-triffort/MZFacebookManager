@@ -1,6 +1,0 @@
-framework module MZFacebookManager {
-  umbrella header "MZFacebookManager-umbrella.h"
-
-  export *
-  module * { export * }
-}
