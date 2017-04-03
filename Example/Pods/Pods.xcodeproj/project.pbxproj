@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E47FEAF5C22ECAB819F9F3136F16DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		68887FBF1E928480009EAAEE /* MZFacebookLoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68887FBD1E928480009EAAEE /* MZFacebookLoginManager.h */; };
+		68887FC01E928480009EAAEE /* MZFacebookLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68887FBE1E928480009EAAEE /* MZFacebookLoginManager.m */; };
+		86A1D6DD7C7A121FEC162D3AC55E6829 /* Pods-MZFacebookManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F703DDED3AACE9D721112A25D1DF4846 /* Pods-MZFacebookManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A26776FE379D5E22271BE4426F6CFFF7 /* MZFacebookManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5FBCF8B19E46D218349C321161ABFB /* MZFacebookManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A993BCC547ABF2C4D63E9A99ED4A4583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D989F8E1979ADDDDD08A272EB091B8FE /* Pods-MZFacebookManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9695946669A5B9ACDCF6091E0EF918BA /* Pods-MZFacebookManager_Tests-dummy.m */; };
+		DAE8B78C25E6B92BFA60C22DA3F9AF29 /* MZFacebookManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FA300EB31E8DDD4758A2A67E6CA385 /* MZFacebookManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DB10BB028CBFAACF15C93A9F44C323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67609F461BA46345F5C78AE83A8DDBE0;
+			remoteInfo = MZFacebookManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F994C2C82B3C2DF74C85A8A43B5C1EA /* Pods-MZFacebookManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZFacebookManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1912B6B83B81C019EDBF13674A147894 /* MZFacebookManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZFacebookManager-prefix.pch"; sourceTree = "<group>"; };
+		1987FBC443DF03D6E03A237A83F9D7F2 /* Pods-MZFacebookManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MZFacebookManager_Tests.modulemap"; sourceTree = "<group>"; };
+		1B30226F3FF2E501FFDFB49592F70CAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ABD507EFDC51742316EBE50C97ECC26 /* MZFacebookManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZFacebookManager.xcconfig; sourceTree = "<group>"; };
+		3DA489484CC7A798E51404587AECFB7C /* MZFacebookManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZFacebookManager.modulemap; sourceTree = "<group>"; };
+		4ABABCEB487948FCBF69A0494EB63B48 /* Pods-MZFacebookManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZFacebookManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53370147E72DF9C0928F86EFF07F1DA4 /* MZFacebookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZFacebookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68887FBD1E928480009EAAEE /* MZFacebookLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFacebookLoginManager.h; sourceTree = "<group>"; };
+		68887FBE1E928480009EAAEE /* MZFacebookLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFacebookLoginManager.m; sourceTree = "<group>"; };
+		8B73FAFFFBDED4F1B6A5C714E512484E /* Pods-MZFacebookManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZFacebookManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9695946669A5B9ACDCF6091E0EF918BA /* Pods-MZFacebookManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZFacebookManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		B724105D6C8118D556D9C6B339E7949E /* Pods_MZFacebookManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZFacebookManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5FBCF8B19E46D218349C321161ABFB /* MZFacebookManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZFacebookManager-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDEAF3AAD1D648B9B75925F0BFD8FF56 /* Pods-MZFacebookManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZFacebookManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E140EFB517FA74A0E4B4C9C17F3F961D /* Pods-MZFacebookManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZFacebookManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5FA300EB31E8DDD4758A2A67E6CA385 /* MZFacebookManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZFacebookManager-dummy.m"; sourceTree = "<group>"; };
+		F2164D55BE0DE48928286E3AD2E69E85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F703DDED3AACE9D721112A25D1DF4846 /* Pods-MZFacebookManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZFacebookManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FD947F036E0DED3D374D4166505347EC /* Pods-MZFacebookManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZFacebookManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A4714C57F9BA3711F75820037982D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E47FEAF5C22ECAB819F9F3136F16DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF23EE50E49866361F453303C6C6252D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A993BCC547ABF2C4D63E9A99ED4A4583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E0A9ABE2C1EA8A63D2E3CFB6688CB9 /* Pods-MZFacebookManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B30226F3FF2E501FFDFB49592F70CAD /* Info.plist */,
+				1987FBC443DF03D6E03A237A83F9D7F2 /* Pods-MZFacebookManager_Tests.modulemap */,
+				E140EFB517FA74A0E4B4C9C17F3F961D /* Pods-MZFacebookManager_Tests-acknowledgements.markdown */,
+				4ABABCEB487948FCBF69A0494EB63B48 /* Pods-MZFacebookManager_Tests-acknowledgements.plist */,
+				9695946669A5B9ACDCF6091E0EF918BA /* Pods-MZFacebookManager_Tests-dummy.m */,
+				FD947F036E0DED3D374D4166505347EC /* Pods-MZFacebookManager_Tests-frameworks.sh */,
+				8B73FAFFFBDED4F1B6A5C714E512484E /* Pods-MZFacebookManager_Tests-resources.sh */,
+				F703DDED3AACE9D721112A25D1DF4846 /* Pods-MZFacebookManager_Tests-umbrella.h */,
+				0F994C2C82B3C2DF74C85A8A43B5C1EA /* Pods-MZFacebookManager_Tests.debug.xcconfig */,
+				DDEAF3AAD1D648B9B75925F0BFD8FF56 /* Pods-MZFacebookManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-MZFacebookManager_Tests";
+			path = "Target Support Files/Pods-MZFacebookManager_Tests";
+			sourceTree = "<group>";
+		};
+		166FF1414219FF24E9265BDB18D27843 /* MZFacebookManager */ = {
+			isa = PBXGroup;
+			children = (
+				5A7EC10A281271A0834D62325B605B3E /* MZFacebookManager */,
+				76FCA058590703B35F7D1745F278F73C /* Support Files */,
+			);
+			name = MZFacebookManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4AC1E4B9D44E563B49966C44DE1F9C23 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				166FF1414219FF24E9265BDB18D27843 /* MZFacebookManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A7EC10A281271A0834D62325B605B3E /* MZFacebookManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE809F767C605FCDF38F390020A9B448 /* Classes */,
+			);
+			path = MZFacebookManager;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76FCA058590703B35F7D1745F278F73C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2164D55BE0DE48928286E3AD2E69E85 /* Info.plist */,
+				3DA489484CC7A798E51404587AECFB7C /* MZFacebookManager.modulemap */,
+				2ABD507EFDC51742316EBE50C97ECC26 /* MZFacebookManager.xcconfig */,
+				E5FA300EB31E8DDD4758A2A67E6CA385 /* MZFacebookManager-dummy.m */,
+				1912B6B83B81C019EDBF13674A147894 /* MZFacebookManager-prefix.pch */,
+				CA5FBCF8B19E46D218349C321161ABFB /* MZFacebookManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MZFacebookManager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4AC1E4B9D44E563B49966C44DE1F9C23 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				870725AC31349080FC684B6390888368 /* Products */,
+				BA1C2FE15C945E4AE9252DBC2D61C106 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		870725AC31349080FC684B6390888368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53370147E72DF9C0928F86EFF07F1DA4 /* MZFacebookManager.framework */,
+				B724105D6C8118D556D9C6B339E7949E /* Pods_MZFacebookManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1C2FE15C945E4AE9252DBC2D61C106 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E0A9ABE2C1EA8A63D2E3CFB6688CB9 /* Pods-MZFacebookManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE809F767C605FCDF38F390020A9B448 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68887FBD1E928480009EAAEE /* MZFacebookLoginManager.h */,
+				68887FBE1E928480009EAAEE /* MZFacebookLoginManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11A70E9E44C8FFAB25402A07E4C8FB3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A1D6DD7C7A121FEC162D3AC55E6829 /* Pods-MZFacebookManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF168399CE6E5625861BCDF1E8D66ABC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26776FE379D5E22271BE4426F6CFFF7 /* MZFacebookManager-umbrella.h in Headers */,
+				68887FBF1E928480009EAAEE /* MZFacebookLoginManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67609F461BA46345F5C78AE83A8DDBE0 /* MZFacebookManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3705782CDA5C324F79CE32398082319E /* Build configuration list for PBXNativeTarget "MZFacebookManager" */;
+			buildPhases = (
+				199A3175B75FD34876112BCCBFFAE57C /* Sources */,
+				DF23EE50E49866361F453303C6C6252D /* Frameworks */,
+				BF168399CE6E5625861BCDF1E8D66ABC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZFacebookManager;
+			productName = MZFacebookManager;
+			productReference = 53370147E72DF9C0928F86EFF07F1DA4 /* MZFacebookManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74EC91E443F3262DFBD1130501CC7AAA /* Pods-MZFacebookManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FB1E376B790BBB10CF67094477ECAD /* Build configuration list for PBXNativeTarget "Pods-MZFacebookManager_Tests" */;
+			buildPhases = (
+				DAE6EBDD8138364D3605913A179885C0 /* Sources */,
+				48A4714C57F9BA3711F75820037982D6 /* Frameworks */,
+				11A70E9E44C8FFAB25402A07E4C8FB3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF727ED86DEB3098B266499E24A187EF /* PBXTargetDependency */,
+			);
+			name = "Pods-MZFacebookManager_Tests";
+			productName = "Pods-MZFacebookManager_Tests";
+			productReference = B724105D6C8118D556D9C6B339E7949E /* Pods_MZFacebookManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 870725AC31349080FC684B6390888368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67609F461BA46345F5C78AE83A8DDBE0 /* MZFacebookManager */,
+				74EC91E443F3262DFBD1130501CC7AAA /* Pods-MZFacebookManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199A3175B75FD34876112BCCBFFAE57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68887FC01E928480009EAAEE /* MZFacebookLoginManager.m in Sources */,
+				DAE8B78C25E6B92BFA60C22DA3F9AF29 /* MZFacebookManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE6EBDD8138364D3605913A179885C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D989F8E1979ADDDDD08A272EB091B8FE /* Pods-MZFacebookManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF727ED86DEB3098B266499E24A187EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZFacebookManager;
+			target = 67609F461BA46345F5C78AE83A8DDBE0 /* MZFacebookManager */;
+			targetProxy = 84DB10BB028CBFAACF15C93A9F44C323 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FD8C2F7D7D4A587C99B0D4790EA129D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABD507EFDC51742316EBE50C97ECC26 /* MZFacebookManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZFacebookManager/MZFacebookManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZFacebookManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZFacebookManager/MZFacebookManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MZFacebookManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		714A816E8137501B8F6A2072FD4FCBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F994C2C82B3C2DF74C85A8A43B5C1EA /* Pods-MZFacebookManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MZFacebookManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MZFacebookManager_Tests/Pods-MZFacebookManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MZFacebookManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A86BC1E7856A865B2E63BBB04496CD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEAF3AAD1D648B9B75925F0BFD8FF56 /* Pods-MZFacebookManager_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MZFacebookManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MZFacebookManager_Tests/Pods-MZFacebookManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MZFacebookManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F63C25C8C3EB791AA75D5794074F9F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABD507EFDC51742316EBE50C97ECC26 /* MZFacebookManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZFacebookManager/MZFacebookManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZFacebookManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZFacebookManager/MZFacebookManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MZFacebookManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3705782CDA5C324F79CE32398082319E /* Build configuration list for PBXNativeTarget "MZFacebookManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63C25C8C3EB791AA75D5794074F9F6D /* Debug */,
+				4FD8C2F7D7D4A587C99B0D4790EA129D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FB1E376B790BBB10CF67094477ECAD /* Build configuration list for PBXNativeTarget "Pods-MZFacebookManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714A816E8137501B8F6A2072FD4FCBD2 /* Debug */,
+				A86BC1E7856A865B2E63BBB04496CD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

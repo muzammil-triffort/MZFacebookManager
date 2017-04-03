@@ -1,0 +1,22 @@
+{
+  "name": "MZFacebookManager",
+  "version": "0.1.0",
+  "summary": "A short description of MZFacebookManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/muzammil-triffort/MZFacebookManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "muzammil-triffort": "muzammil@triffort.com"
+  },
+  "source": {
+    "git": "https://github.com/muzammil-triffort/MZFacebookManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MZFacebookManager/Classes/**/*"
+}
