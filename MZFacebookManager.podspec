@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
   s.source_files = 'MZFacebookManager/Classes/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit'
-    s.dependency 'FBSDKLoginKit'
-    s.dependency 'FBSDKCoreKit'
+#s.frameworks = 'UIKit'
+#s.dependency 'FBSDKLoginKit'
+#s.dependency 'FBSDKCoreKit'
 
 end
