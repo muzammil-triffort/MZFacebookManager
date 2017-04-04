@@ -6,7 +6,7 @@
 //
 //
 
-#import "MZFacebookManager.h"
+#import "MZFacebookLoginManager.h"
 
 @interface MZFacebookLoginManager ()
 {
