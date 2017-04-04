@@ -3,7 +3,7 @@
 //  Pods
 //
 //  Created by Muzammil Mohammad on 03/04/17.
-//
+//  Copyright © 2017 Muzammil Mohammad. All rights reserved.
 //
 
 #import "MZFacebookLoginManager.h"
