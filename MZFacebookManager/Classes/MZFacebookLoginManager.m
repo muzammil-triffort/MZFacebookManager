@@ -5,6 +5,13 @@
 //  Created by Muzammil Mohammad on 03/04/17.
 //
 //
+
+#import "MZFacebookLoginManager.h"
+
+@implementation MZFacebookLoginManager
+
+@end
+
 /*
 #import "MZFacebookManager.h"
 

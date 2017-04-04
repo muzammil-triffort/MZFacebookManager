@@ -6,6 +6,12 @@
 //
 //
 
+#import <Foundation/Foundation.h>
+
+@interface MZFacebookLoginManager : NSObject
+
+@end
+
 /*
 #import <UIKit/UIKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
