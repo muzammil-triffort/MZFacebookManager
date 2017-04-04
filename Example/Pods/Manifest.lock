@@ -1,5 +1,17 @@
 PODS:
-  - MZFacebookManager (0.1.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.20.2):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.20.2):
+    - FBSDKCoreKit
+  - MZFacebookManager (1.0.3):
+    - FBSDKCoreKit
+    - FBSDKLoginKit
 
 DEPENDENCIES:
   - MZFacebookManager (from `../`)
@@ -9,7 +21,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MZFacebookManager: '0865d9f9371fb54fbb838b075d994ffca913a600'
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 82eac696eb6157da5f4266c3a241f00e9bd72471
+  FBSDKLoginKit: 2211bede07c83391349eacc1fd86cf6d9289ce38
+  MZFacebookManager: 32dfb55ff2f2f56f0b4f81c253357780da5907db
 
 PODFILE CHECKSUM: 5670c258d239575ada0eb93ce0f8ecb4ffd9326b
 

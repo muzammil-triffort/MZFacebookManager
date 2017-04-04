@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MZFacebookLoginManager.h"
 
 FOUNDATION_EXPORT double MZFacebookManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char MZFacebookManagerVersionString[];

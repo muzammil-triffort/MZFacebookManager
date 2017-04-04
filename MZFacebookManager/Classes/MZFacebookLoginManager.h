@@ -6,13 +6,6 @@
 //
 //
 
-#import <Foundation/Foundation.h>
-
-@interface MZFacebookLoginManager : NSObject
-
-@end
-
-/*
 #import <UIKit/UIKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
@@ -32,4 +25,4 @@ typedef void(^FacebookLoginBlock)(BOOL success, id token);
 @property (nonatomic, retain) id fbAppDelegate;
 
 @end
-*/
+

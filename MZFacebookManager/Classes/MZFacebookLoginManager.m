@@ -6,13 +6,6 @@
 //
 //
 
-#import "MZFacebookLoginManager.h"
-
-@implementation MZFacebookLoginManager
-
-@end
-
-/*
 #import "MZFacebookManager.h"
 
 @interface MZFacebookLoginManager ()
@@ -129,4 +122,3 @@
 }
 
 @end
-*/
