@@ -19,7 +19,7 @@
 
 @implementation MZFacebookLoginManager
 
-+ (id)FacebookManager
++ (id)LoginManager
 {
     static dispatch_once_t onceQueue;
     static MZFacebookLoginManager *loginManager = nil;
@@ -35,26 +35,17 @@
     return loginManager;
 }
 
-+ (UIViewController*)getCurrentViewController
-{
-    UINavigationController *navController = (UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
-    
-    if (navController) {
-        
-        UIViewController *topController = [navController visibleViewController];
-        
-        return topController;
-    }
-    
-    return nil;
-}
-
 - (void)setFacebookAppId:(NSString*)appId
 {
     _facebookAppId = appId;
 }
 
-- (void)openFacebookLogin:(FacebookLoginBlock)block insideController:(UIViewController*)controller
+- (void)openFacebookLoginInsideController:(UIViewController*)controller response:(FacebookLoginBlock)block
+{
+    [self openFacebookLoginWithPermission:@[@"email"] insideController:controller response:block];
+}
+
+- (void)openFacebookLoginWithPermissions:(NSArray*)permissions insideController:(UIViewController*)controller response:(FacebookLoginBlock)block
 {
     if (!_facebookAppId) {
         
@@ -83,7 +74,7 @@
     
     _fbAppDelegate = [FBSDKApplicationDelegate sharedInstance];
     
-    [login logInWithReadPermissions:@[@"email"] fromViewController:controller handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+    [login logInWithReadPermissions:permissions fromViewController:controller handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
         
         if (error)
         {
@@ -119,6 +110,20 @@
             }
         }
     }];
+}
+
++ (UIViewController*)getCurrentViewController
+{
+    UINavigationController *navController = (UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+    
+    if (navController) {
+        
+        UIViewController *topController = [navController visibleViewController];
+        
+        return topController;
+    }
+    
+    return nil;
 }
 
 @end

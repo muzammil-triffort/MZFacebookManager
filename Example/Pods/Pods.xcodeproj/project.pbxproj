@@ -108,7 +108,7 @@
 		66064FE057D6E98B6064299F4B819DF1 /* FBSDKWebDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 823E4A1A5B74DCD0A375C228E0B87B5A /* FBSDKWebDialogView.m */; };
 		660D3F9F24DBD302A9A6B5A4B0A5F6ED /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76ACD6C5AEB67CD4BFC8E3EED1EE8A05 /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F350233BDECA29E91220A6E62A17FA /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8780A1A5BDCB678AB863828AC51F28C6 /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68887FD11E93ACDE009EAAEE /* MZFacebookManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68887FCF1E93ACDE009EAAEE /* MZFacebookManager.h */; };
+		68887FD11E93ACDE009EAAEE /* MZFacebookManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68887FCF1E93ACDE009EAAEE /* MZFacebookManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A02DCD5FCB28EFE76786889F85C371D /* FBSDKUIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF0E3FDE27189C8553AF9336DCD7E3F /* FBSDKUIUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6A3D2BF94C8A98AEE130A80DC2D99E4B /* FBSDKLoginManagerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F79FBBC5B814C2D4317EF52DAB296C7F /* FBSDKLoginManagerLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6AFE71483C188C376C7B0F37453FDB24 /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4E5AE6720AE55F39694FEA7A4F288E /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };

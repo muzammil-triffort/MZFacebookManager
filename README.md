@@ -22,7 +22,7 @@ pod "MZFacebookManager"
 
 ## Author
 
-muzammil-triffort, muzammil@triffort.com
+Muzammil Mohammad, muzammil@triffort.com
 
 ## License
 
