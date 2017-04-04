@@ -12,9 +12,10 @@
 		68887FC81E938EC4009EAAEE /* MZFacebookManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68887FC51E938EC4009EAAEE /* MZFacebookManager.h */; };
 		68887FC91E938EC4009EAAEE /* MZFacebookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68887FC61E938EC4009EAAEE /* MZFacebookManager.m */; };
 		68887FCA1E938EC4009EAAEE /* MZFacebookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68887FC61E938EC4009EAAEE /* MZFacebookManager.m */; };
+		68887FCD1E9398B4009EAAEE /* MZFacebookLoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68887FCB1E9398B4009EAAEE /* MZFacebookLoginManager.h */; };
+		68887FCE1E9398B4009EAAEE /* MZFacebookLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68887FCC1E9398B4009EAAEE /* MZFacebookLoginManager.m */; };
 		86A1D6DD7C7A121FEC162D3AC55E6829 /* Pods-MZFacebookManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F703DDED3AACE9D721112A25D1DF4846 /* Pods-MZFacebookManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A26776FE379D5E22271BE4426F6CFFF7 /* MZFacebookManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5FBCF8B19E46D218349C321161ABFB /* MZFacebookManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A61712C5A6949C9EBAAAA7754B964A07 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F505124B2E95A82F9D56379860A9092 /* ReplaceMe.m */; };
 		A993BCC547ABF2C4D63E9A99ED4A4583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D989F8E1979ADDDDD08A272EB091B8FE /* Pods-MZFacebookManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9695946669A5B9ACDCF6091E0EF918BA /* Pods-MZFacebookManager_Tests-dummy.m */; };
 		DAE8B78C25E6B92BFA60C22DA3F9AF29 /* MZFacebookManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FA300EB31E8DDD4758A2A67E6CA385 /* MZFacebookManager-dummy.m */; };
@@ -35,13 +36,14 @@
 		1912B6B83B81C019EDBF13674A147894 /* MZFacebookManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZFacebookManager-prefix.pch"; sourceTree = "<group>"; };
 		1987FBC443DF03D6E03A237A83F9D7F2 /* Pods-MZFacebookManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MZFacebookManager_Tests.modulemap"; sourceTree = "<group>"; };
 		1B30226F3FF2E501FFDFB49592F70CAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F505124B2E95A82F9D56379860A9092 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		2ABD507EFDC51742316EBE50C97ECC26 /* MZFacebookManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZFacebookManager.xcconfig; sourceTree = "<group>"; };
 		3DA489484CC7A798E51404587AECFB7C /* MZFacebookManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZFacebookManager.modulemap; sourceTree = "<group>"; };
 		4ABABCEB487948FCBF69A0494EB63B48 /* Pods-MZFacebookManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZFacebookManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		53370147E72DF9C0928F86EFF07F1DA4 /* MZFacebookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZFacebookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68887FC51E938EC4009EAAEE /* MZFacebookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFacebookManager.h; sourceTree = "<group>"; };
 		68887FC61E938EC4009EAAEE /* MZFacebookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFacebookManager.m; sourceTree = "<group>"; };
+		68887FCB1E9398B4009EAAEE /* MZFacebookLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFacebookLoginManager.h; sourceTree = "<group>"; };
+		68887FCC1E9398B4009EAAEE /* MZFacebookLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFacebookLoginManager.m; sourceTree = "<group>"; };
 		8B73FAFFFBDED4F1B6A5C714E512484E /* Pods-MZFacebookManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZFacebookManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9695946669A5B9ACDCF6091E0EF918BA /* Pods-MZFacebookManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZFacebookManager_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -181,7 +183,8 @@
 		BE809F767C605FCDF38F390020A9B448 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1F505124B2E95A82F9D56379860A9092 /* ReplaceMe.m */,
+				68887FCB1E9398B4009EAAEE /* MZFacebookLoginManager.h */,
+				68887FCC1E9398B4009EAAEE /* MZFacebookLoginManager.m */,
 				68887FC51E938EC4009EAAEE /* MZFacebookManager.h */,
 				68887FC61E938EC4009EAAEE /* MZFacebookManager.m */,
 			);
@@ -206,6 +209,7 @@
 			files = (
 				A26776FE379D5E22271BE4426F6CFFF7 /* MZFacebookManager-umbrella.h in Headers */,
 				68887FC71E938EC4009EAAEE /* MZFacebookManager.h in Headers */,
+				68887FCD1E9398B4009EAAEE /* MZFacebookLoginManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68887FCE1E9398B4009EAAEE /* MZFacebookLoginManager.m in Sources */,
 				68887FC91E938EC4009EAAEE /* MZFacebookManager.m in Sources */,
 				DAE8B78C25E6B92BFA60C22DA3F9AF29 /* MZFacebookManager-dummy.m in Sources */,
-				A61712C5A6949C9EBAAAA7754B964A07 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MZFacebookManager'
-  s.version          = '1.0.1'
-  s.summary          = 'Easy to access Facebook.'
+  s.version          = '1.0.2'
+  s.summary          = 'Facebook Login Manager.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,21 +17,26 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'With MZFacebookManager you can easily access Facebook login'
+  s.description      = 'You can easily login inside Facebook'
 
   s.homepage         = 'https://github.com/muzammil-triffort/MZFacebookManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'muzammil-triffort' => 'muzammil@triffort.com' }
   s.source           = { :git => 'https://github.com/muzammil-triffort/MZFacebookManager.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MZFacebookManager/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'MZFacebookManager' => ['MZFacebookManager/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-#s.frameworks = 'UIKit'
-#s.dependency 'FBSDKLoginKit'
-#s.dependency 'FBSDKCoreKit'
-
+  	 s.frameworks = 'UIKit' 
+  	s.dependency 'FBSDKLoginKit'
+ 	s.dependency 'FBSDKCoreKit'
+  
 end

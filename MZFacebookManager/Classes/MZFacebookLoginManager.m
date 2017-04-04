@@ -5,7 +5,7 @@
 //  Created by Muzammil Mohammad on 03/04/17.
 //
 //
-
+/*
 #import "MZFacebookManager.h"
 
 @interface MZFacebookLoginManager ()
@@ -122,4 +122,4 @@
 }
 
 @end
-
+*/
