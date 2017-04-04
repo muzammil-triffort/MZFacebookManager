@@ -1,5 +1,4 @@
-#use_frameworks!
-
+use_frameworks!
 target 'MZFacebookManager_Tests' do
   pod 'MZFacebookManager', :path => '../'
   
