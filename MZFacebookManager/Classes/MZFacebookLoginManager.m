@@ -42,7 +42,7 @@
 
 - (void)openFacebookLoginInsideController:(UIViewController*)controller response:(FacebookLoginBlock)block
 {
-    [self openFacebookLoginWithPermission:@[@"email"] insideController:controller response:block];
+    [self openFacebookLoginWithPermissions:@[@"email"] insideController:controller response:block];
 }
 
 - (void)openFacebookLoginWithPermissions:(NSArray*)permissions insideController:(UIViewController*)controller response:(FacebookLoginBlock)block
