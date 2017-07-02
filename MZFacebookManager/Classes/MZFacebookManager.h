@@ -28,9 +28,12 @@
  
  3. Inside app plist file, add your Facebook App id
  
-    FacebookAppID (key) | XXXXXXXXXXXXX (value)
+    -> Define fbauth2 value for key LSApplicationQueriesSchemes
+    https://developers.facebook.com/docs/ios/ios9
  
+    -> FacebookAppID (key) | XXXXXXXXXXXXX (value)
+
     and URL Scheme. For more info check Facebook developer website.
- 
+    https://developers.facebook.com/docs/ios/getting-started
  
  */
